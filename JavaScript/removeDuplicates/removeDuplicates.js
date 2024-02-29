@@ -16,6 +16,13 @@
 
 * */
 
+//https://leetcode.com/tag/two-pointers/
+
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+
 function removeDuplicates (nums) {
   if (nums?.length === 0) {
     return 0
@@ -26,15 +33,12 @@ function removeDuplicates (nums) {
   const len = nums?.length
 
   while (j < len) {
-    console.log("this iter", nums)
       if (nums[i] !==  nums[j]) {
         i++
         nums[i] = nums[j]
       }
       j++
   }
-
-   //Не удаляем элементы
   return i + 1
 }
 
