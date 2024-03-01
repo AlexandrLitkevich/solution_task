@@ -1,0 +1,21 @@
+{
+  "name": "solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "autor": "Alexandr Litkevich",
+  "scripts": {
+    "test": "jest",
+    "watch-tdd": "jest --watch"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.6",
+    "@babel/preset-env": "^7.23.6",
+    "@babel/preset-typescript": "^7.23.3",
+    "@jest/globals": "^29.7.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "typescript": "^5.3.3"
+  }
+}
