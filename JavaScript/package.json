@@ -6,7 +6,7 @@
   "autor": "Alexandr Litkevich",
   "scripts": {
     "test": "jest",
-    "watch-tdd": "jest --watch"
+    "tdd": "jest --watch"
   },
   "license": "ISC",
   "devDependencies": {
