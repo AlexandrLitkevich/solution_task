@@ -4,18 +4,21 @@
   "description": "",
   "main": "",
   "autor": "Alexandr Litkevich",
+  "type": "module",
   "scripts": {
     "test": "jest",
     "tdd": "jest --watch"
   },
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.23.6",
-    "@babel/preset-env": "^7.23.6",
-    "@babel/preset-typescript": "^7.23.3",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-typescript": "^7.26.0",
     "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.14",
     "babel-jest": "^29.7.0",
     "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
     "typescript": "^5.3.3"
   }
 }

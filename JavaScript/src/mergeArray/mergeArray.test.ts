@@ -1,5 +1,5 @@
-const {mergeArrays} = require('./mergeArrays')
-const {describe, test, expect} = require("@jest/globals");
+import { mergeArrays } from './mergeArrays';
+import { describe, test, expect } from "@jest/globals";
 
 
 describe("merge sort test", () => {

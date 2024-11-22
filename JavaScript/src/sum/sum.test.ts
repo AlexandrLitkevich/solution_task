@@ -1,5 +1,5 @@
-const {sum} = require('./sum')
-const {describe, test, expect} = require("@jest/globals");
+import { sum } from './sum';
+import { describe, test, expect } from "@jest/globals";
 
 describe("first test", () => {
     test("1 + 1", () => {

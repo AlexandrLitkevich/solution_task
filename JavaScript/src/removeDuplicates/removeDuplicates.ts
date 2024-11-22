@@ -18,12 +18,8 @@
 
 //https://leetcode.com/tag/two-pointers/
 
-/**
- * @param {number[]} nums
- * @return {number}
- */
 
-function removeDuplicates (nums) {
+export function removeDuplicates (nums: number[]): number {
   if (nums?.length === 0) {
     return 0
   }
@@ -41,5 +37,3 @@ function removeDuplicates (nums) {
   }
   return i + 1
 }
-
-module.exports = {removeDuplicates}
